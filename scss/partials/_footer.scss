@@ -1,0 +1,18 @@
+.footer-de-contacto {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+.logos-de-abajo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .atajos-a-contacto {
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+}

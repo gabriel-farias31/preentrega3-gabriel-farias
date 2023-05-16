@@ -1,0 +1,100 @@
+.logo-kerastase-productos {
+    background-color: aqua;
+    grid-area: logo-kerastase;
+}
+.logo-contacto {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.logo-loreal-productos {
+    background-color: brown;
+    grid-area: logo-loreal;
+}
+
+
+.imagen-kerastase {
+    width: 100%;
+    height: 100%;
+}
+
+
+.imagen-loreal {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-vitrina-productos {
+    background-color: blueviolet;
+    grid-area: logo-vitrina;
+
+}
+
+.imagen-vitrina {
+    width: 100%;
+    height: 100%;
+}
+
+
+.foto-del-personal {
+    width: 35rem;
+    height: 30rem;
+    margin: 30px;
+    margin-left: 25rem;
+}
+
+
+.foto_1 {
+    width: 500px;
+    height: 300px;
+
+}
+
+.imagenes-2-y-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.foto_2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+}
+
+.foto_3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 60%;
+}
+.imagen-1-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-de-logo {
+    width: 50px;
+    margin-left: 100px;
+}
+.salon--1 {
+    width: 300px;
+    height: 300px;
+}
+.col-md-4 {
+    margin-left: 450px;
+    }
+    .barra-de-nave {
+        display: flex;
+    }
+    
+    .logo-nav {
+        width: 50px;
+        height: 50px;
+        margin-left: 60px;
+    }
+  
+    .estrella {
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }

@@ -1,0 +1,20 @@
+body {
+    background:url(../img/fondo-lindo.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2em;
+
+}
+
+nav {
+    display: flex;
+}
+
+.navegacion {
+    justify-content: space-between;
+    background-image: url(../img/fondo-mejor.jpg);
+    text-decoration: none;
+}

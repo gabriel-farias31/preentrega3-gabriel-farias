@@ -1,0 +1,68 @@
+.titulo-peluqueria-nav {
+    font-size:smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: underline;
+}
+
+.titulo-para-servicios {
+    display: flex;
+    justify-content: center;
+}
+.cajita-animada{
+    width: 150px;
+    height: 150px;
+    transition: 2s;
+    .cajita-animada:hover{
+        transform: rotate(180deg);
+    }
+    .bienvenidos-p {
+        font-weight: 900;
+        margin-top: 90px;
+        margin-bottom: 190px;
+        border-style: dashed;
+    background-color: $colorvariable;
+    }
+}
+
+
+.titulo-servicios {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.nombre-de-peluqueria {
+    font-family: 'Alkatra', cursive;
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.numeros-de-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+
+}
+.huhu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(to bottom,blueviolet,rgb(241, 241, 111));
+transition: 1s;
+&:hover{
+    transform: rotate(360deg);
+    font-size: xx-large;
+}
+
+
+}

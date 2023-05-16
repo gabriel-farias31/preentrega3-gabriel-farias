@@ -1,0 +1,57 @@
+@media (max-width:768px) and (min-width:576px) {
+    .productos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            ". lista-de-productos lista-de-productos ."
+            ". carrousel-kerastase carrousel-kerastase ."
+            ". carrousel-loreal carrousel-loreal ."
+            ". logo-vitrina logo-vitrina .";
+    }
+}
+
+@media (max-width:450px) {
+    .productos-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "lista-de-productos lista-de-productos"
+            "carrousel-kerastase carrousel-kerastase"
+            "carrousel-loreal carrousel-loreal"
+            "logo-vitrina logo-vitrina";
+    }
+}
+
+
+
+@media (max-width:600px) {
+    .turnos-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media (max-width:500px) {
+    .conocenos-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .conteiner{
+      max-width: max-content;
+
+    }
+    .foto-del-personal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 50px;
+        margin-block-start: auto;
+    }
+
+}

@@ -1,0 +1,77 @@
+.conocenos-media{
+
+    .titulo-conocenos {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .clase-nosotros {
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+
+        .foto-peluqueria {
+            width: 35rem;
+            height: 30rem;
+            margin: 30px;
+        }
+        .nosotros {
+            line-height: 30px;
+            font-family: 'Alkatra', cursive;
+        
+        }
+    
+    }
+    .conteiner {
+        background-color: rgb(235, 168, 143);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+
+        .titulo-personal {
+            font-size: larger;
+            margin-left: 600px;
+        }
+
+        .nosotros {
+            line-height: 30px;
+            font-family: 'Alkatra', cursive;
+        
+        }
+        .foto-del-personal {
+            display: flex;
+            flex-direction: column;
+            width: 35rem;
+            height: 30rem;
+            margin: 30px;
+            margin-left: 25rem;
+        }
+    
+    }
+
+    .row{
+        .imagen-peinados {
+            width: 400px;
+            height: 300px;
+            margin: 20px;
+        }
+        
+    }
+
+    .nosotros-conocenos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+
+}
+
+
+
+
+
